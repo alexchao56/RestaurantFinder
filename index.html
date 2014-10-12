@@ -5,10 +5,128 @@
         <title>A3 Test</title>
         <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
         <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script type="text/javascript"></script>
+        <script src="/jquery-ui-1.11.1.custom/jquery-ui.js"></script>
+        <link rel="stylesheet" type="text/css" href="/jquery-ui-1.11.1.custom/jquery-ui.css">
+        <link rel="stylesheet" type="text/css" href="/jquery-ui-1.11.1.custom/jquery-ui.structure.css">
+        <link rel="stylesheet" type="text/css" href="/jquery-ui-1.11.1.custom/jquery-ui.theme.css">
+        
+        <script type="text/javascript">
+            $(function() {
+                $( "#dist_slider" ).slider({
+                  range: true,
+                  min: 0,
+                  max: 500,
+                  // values: [ 0, 500 ]
+                  values: [ 0, 500 ],
+                  slide: function( event, ui ) {
+                    $( "#dist_amount" ).val(ui.values[ 0 ] + " - " + ui.values[ 1 ] + " mi");
+                  }
+                });
+                $( "#dist_amount" ).val( $( "#dist_slider" ).slider( "values", 0 ) +
+                    " - " + $( "#dist_slider" ).slider( "values", 1 ) + " mi");   
+            });
+
+            $(function() {
+                $( "#stars_slider" ).slider({
+                  range: true,
+                  min: 0,
+                  max: 5,
+                  // values: [ 0, 500 ]
+                  values: [ 0, 5 ],
+                  slide: function( event, ui ) {
+                    $( "#stars_amount" ).val(ui.values[ 0 ] + " - " + ui.values[ 1 ] + " stars");
+                  }
+                });
+                $( "#stars_amount" ).val( $( "#stars_slider" ).slider( "values", 0 ) +
+                    " - " + $( "#stars_slider" ).slider( "values", 1 ) + " stars");   
+            });
+
+
+            $(function() {
+                $( "#checkin_slider" ).slider({
+                  range: true,
+                  min: 0,
+                  max: 200,
+                  // values: [ 0, 500 ]
+                  values: [ 0, 200 ],
+                  slide: function( event, ui ) {
+                    $( "#checkin_amount" ).val(ui.values[ 0 ] + " - " + ui.values[ 1 ] + " check-ins");
+                  }
+                });
+                $( "#checkin_amount" ).val( $( "#checkin_slider" ).slider( "values", 0 ) +
+                    " - " + $( "#checkin_slider" ).slider( "values", 1 ) + " check-ins");   
+            });
+        </script>
 
     </head>
     <body>
-        <p> Hello World </p>
+        <div id="controls">
+            <p>
+              <label for="dist_amount">Distance range:</label>
+              <input type="text" id="dist_amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+            </p>
+            <div id="dist_slider"></div>
+
+            <p>
+              <label for="stars_amount">Stars range:</label>
+              <input type="text" id="stars_amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+            </p>
+            <div id="stars_slider"></div>
+
+            <div id="hours">
+                <form action="">
+                <input type="checkbox" name="day" value="Mon">Mon
+                <input type="checkbox" name="day" value="Tue">Tue
+                <input type="checkbox" name="day" value="Wed">Wed
+                <input type="checkbox" name="day" value="Thu">Thu
+                <input type="checkbox" name="day" value="Fri">Fri
+                <input type="checkbox" name="day" value="Sat">Sat
+                <input type="checkbox" name="day" value="Sun">Sun
+                </form>
+
+                <form action="">
+                <input type="checkbox" name="time" value="0_1">12am-1am
+                <input type="checkbox" name="time" value="1_2">1am-2am
+                <input type="checkbox" name="time" value="2_3">2am-3am
+                <input type="checkbox" name="time" value="3_4">3am-4am</br>
+                <input type="checkbox" name="time" value="4_5">4am-5am
+                <input type="checkbox" name="time" value="5_6">5am-6am
+                <input type="checkbox" name="time" value="6_7">6am-7am
+                <input type="checkbox" name="time" value="7_8">7am-8am</br>
+                <input type="checkbox" name="time" value="8_9">8am-9am
+                <input type="checkbox" name="time" value="9_10">9am-10am
+                <input type="checkbox" name="time" value="10_11">10am-11am
+                <input type="checkbox" name="time" value="11_12">11am-12pm</br>
+                <input type="checkbox" name="time" value="12_13">12pm-1pm
+                <input type="checkbox" name="time" value="13_14">1pm-2pm
+                <input type="checkbox" name="time" value="14_15">2pm-3pm
+                <input type="checkbox" name="time" value="15_16">3pm-4pm</br>
+                <input type="checkbox" name="time" value="16_17">4pm-5pm
+                <input type="checkbox" name="time" value="17_18">5pm-6pm
+                <input type="checkbox" name="time" value="18_19">6pm-7pm
+                <input type="checkbox" name="time" value="19_20">7pm-8pm</br>
+                <input type="checkbox" name="time" value="20_21">8pm-9pm
+                <input type="checkbox" name="time" value="21_22">9pm-10pm
+                <input type="checkbox" name="time" value="22_23">10pm-11pm
+                <input type="checkbox" name="time" value="23_0">11pm-12am</br>
+                </form>              
+            <div id="stars_slider"></div>
+            </div>
+
+
+
+            <p>
+              <label for="checkin_amount">Check-ins range:</label>
+              <input type="text" id="checkin_amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+            </p>
+            <div id="checkin_slider"></div>
+
+            <div id="types">
+                <form action="">
+                <input type="checkbox" name="restaurant" value="Restaurant" checked="True">Restaurant<br>
+                <input type="checkbox" name="bakery" value="Bakery" checked="True">Bakery
+                </form>
+            </div>
+        </div>
     </body>
 </html>
