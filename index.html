@@ -3,15 +3,17 @@
     <head>
         <meta charset="utf-8">
         <title>A3 Test</title>
-        <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="/jquery-1.11.1.min.js"></script>
+        <script src="/jquery.csv-0.71.min.js"></script>
         <script src="/jquery-ui-1.11.1.custom/jquery-ui.js"></script>
         <link rel="stylesheet" type="text/css" href="/jquery-ui-1.11.1.custom/jquery-ui.css">
         <link rel="stylesheet" type="text/css" href="/jquery-ui-1.11.1.custom/jquery-ui.structure.css">
         <link rel="stylesheet" type="text/css" href="/jquery-ui-1.11.1.custom/jquery-ui.theme.css">
+        <link rel="stylesheet" type="text/css" href="/main.css">
         
         <script type="text/javascript">
-            $(function() {
+
+            $(function() {  
                 $( "#dist_slider" ).slider({
                   range: true,
                   min: 0,
@@ -43,49 +45,89 @@
 
 
             $(function() {
-                $( "#checkin_slider" ).slider({
+                $( "#review_slider" ).slider({
                   range: true,
                   min: 0,
                   max: 200,
                   // values: [ 0, 500 ]
                   values: [ 0, 200 ],
                   slide: function( event, ui ) {
-                    $( "#checkin_amount" ).val(ui.values[ 0 ] + " - " + ui.values[ 1 ] + " check-ins");
+                    $( "#review_amount" ).val(ui.values[ 0 ] + " - " + ui.values[ 1 ] + " check-ins");
                   }
                 });
-                $( "#checkin_amount" ).val( $( "#checkin_slider" ).slider( "values", 0 ) +
-                    " - " + $( "#checkin_slider" ).slider( "values", 1 ) + " check-ins");   
+                $( "#review_amount" ).val( $( "#review_slider" ).slider( "values", 0 ) +
+                    " - " + $( "#review_slider" ).slider( "values", 1 ) + " check-ins");   
             });
         </script>
 
     </head>
     <body>
+
         <div id="controls">
-            <p>
+            <p class="selector_header">
               <label for="dist_amount">Distance range:</label>
               <input type="text" id="dist_amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
             </p>
             <div id="dist_slider"></div>
 
-            <p>
+            <p class="selector_header">
               <label for="stars_amount">Stars range:</label>
               <input type="text" id="stars_amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
             </p>
             <div id="stars_slider"></div>
 
-            <div id="hours">
-                <form action="">
-                <input type="checkbox" name="day" value="Mon">Mon
+            <p class="selector_header">Open hours: </p>
+            <div id="times">
+              <form>
+                <label>Day: </label><select id ="days">
+                  <option value="n">No preference</option>
+                  <option value="m">Monday</option>
+                  <option value="tu">Tuesday</option>
+                  <option value="w">Wednesday</option>
+                  <option value="th">Thursday</option>
+                  <option value="f">Friday</option>
+                  <option value="sa">Saturday</option>
+                  <option value="su">Sunday</option>
+                </select>
+
+                <label>Time: </label><select id ="hours">
+                  <option value="n">No preference</option>
+                  <option value="0">12:00 am</option>
+                  <option value="1">1:00 am</option>
+                  <option value="2">2:00 am</option>
+                  <option value="3">3:00 am</option>
+                  <option value="4">4:00 am</option>
+                  <option value="5">5:00 am</option>
+                  <option value="6">6:00 am</option>
+                  <option value="7">7:00 am</option>
+                  <option value="8">8:00 am</option>
+                  <option value="9">9:00 am</option>
+                  <option value="10">10:00 am</option>
+                  <option value="11">11:00 am</option>
+                  <option value="12">12:00 pm</option>
+                  <option value="13">1:00 pm</option>
+                  <option value="14">2:00 pm</option>
+                  <option value="15">3:00 pm</option>
+                  <option value="16">4:00 pm</option>
+                  <option value="17">5:00 pm</option>
+                  <option value="18">6:00 pm</option>
+                  <option value="19">7:00 pm</option>
+                  <option value="20">8:00 pm</option>
+                  <option value="21">9:00 pm</option>
+                  <option value="22">10:00 pm</option>
+                  <option value="23">11:00 pm</option>
+                </select>
+              </form>
+
+                <!-- <input type="checkbox" name="day" value="Mon">Mon
                 <input type="checkbox" name="day" value="Tue">Tue
                 <input type="checkbox" name="day" value="Wed">Wed
                 <input type="checkbox" name="day" value="Thu">Thu
                 <input type="checkbox" name="day" value="Fri">Fri
                 <input type="checkbox" name="day" value="Sat">Sat
-                <input type="checkbox" name="day" value="Sun">Sun
-                </form>
+                <input type="checkbox" name="day" value="Sun">Sun -->
 
-                <form action="">
-                <input type="checkbox" name="time" value="0_1">12am-1am
+                <!-- <input type="checkbox" name="time" value="0_1">12am-1am
                 <input type="checkbox" name="time" value="1_2">1am-2am
                 <input type="checkbox" name="time" value="2_3">2am-3am
                 <input type="checkbox" name="time" value="3_4">3am-4am</br>
@@ -108,23 +150,21 @@
                 <input type="checkbox" name="time" value="20_21">8pm-9pm
                 <input type="checkbox" name="time" value="21_22">9pm-10pm
                 <input type="checkbox" name="time" value="22_23">10pm-11pm
-                <input type="checkbox" name="time" value="23_0">11pm-12am</br>
-                </form>              
-            <div id="stars_slider"></div>
-            </div>
+                <input type="checkbox" name="time" value="23_0">11pm-12am</br> -->
 
-
-
-            <p>
-              <label for="checkin_amount">Check-ins range:</label>
-              <input type="text" id="checkin_amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+            <p class="selector_header">
+              <label for="review_amount">Number of reviews:</label>
+              <input type="text" id="review_amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
             </p>
-            <div id="checkin_slider"></div>
+            <div id="review_slider"></div>
 
+            <p class="selector_header">Additional Specifications:</p>
             <div id="types">
                 <form action="">
-                <input type="checkbox" name="restaurant" value="Restaurant" checked="True">Restaurant<br>
-                <input type="checkbox" name="bakery" value="Bakery" checked="True">Bakery
+                <input type="checkbox" name="type" value="Reservations">Accepts reservations<br>
+                <input type="checkbox" name="type" value="Wifi">Wifi<br>
+                <input type="checkbox" name="type" value="Wifi">Accepts credit cards<br>
+                <input type="checkbox" name="type" value="Take out">Take out
                 </form>
             </div>
         </div>

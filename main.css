@@ -1,0 +1,14 @@
+#controls {
+	width:350px;
+	margin: 20px;
+	float: right;
+}
+
+.selector_header {
+	padding-top: 10px;
+	font-size: 20px;
+}
+
+#days {
+	margin-bottom: 10px;
+}
