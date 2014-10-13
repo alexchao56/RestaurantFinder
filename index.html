@@ -14,55 +14,7 @@
 
         <script src="/map.js"></script>
         <script src="/processor.js"></script>
-        
-        <script type="text/javascript">
 
-            $(function() {  
-                $( "#dist_slider" ).slider({
-                  range: true,
-                  min: 0,
-                  max: 500,
-                  // values: [ 0, 500 ]
-                  values: [ 0, 500 ],
-                  slide: function( event, ui ) {
-                    $( "#dist_amount" ).val(ui.values[ 0 ] + " - " + ui.values[ 1 ] + " mi");
-                  }
-                });
-                $( "#dist_amount" ).val( $( "#dist_slider" ).slider( "values", 0 ) +
-                    " - " + $( "#dist_slider" ).slider( "values", 1 ) + " mi");   
-            });
-
-            $(function() {
-                $( "#stars_slider" ).slider({
-                  range: true,
-                  min: 0,
-                  max: 5,
-                  // values: [ 0, 500 ]
-                  values: [ 0, 5 ],
-                  slide: function( event, ui ) {
-                    $( "#stars_amount" ).val(ui.values[ 0 ] + " - " + ui.values[ 1 ] + " stars");
-                  }
-                });
-                $( "#stars_amount" ).val( $( "#stars_slider" ).slider( "values", 0 ) +
-                    " - " + $( "#stars_slider" ).slider( "values", 1 ) + " stars");   
-            });
-
-
-            $(function() {
-                $( "#review_slider" ).slider({
-                  range: true,
-                  min: 0,
-                  max: 200,
-                  // values: [ 0, 500 ]
-                  values: [ 0, 200 ],
-                  slide: function( event, ui ) {
-                    $( "#review_amount" ).val(ui.values[ 0 ] + " - " + ui.values[ 1 ] + " check-ins");
-                  }
-                });
-                $( "#review_amount" ).val( $( "#review_slider" ).slider( "values", 0 ) +
-                    " - " + $( "#review_slider" ).slider( "values", 1 ) + " check-ins");   
-            });
-        </script>
 
     </head>
     <body>
@@ -167,10 +119,10 @@
             <p class="selector_header">Additional Specifications:</p>
             <div id="types">
                 <form action="">
-                <input type="checkbox" name="type" value="Reservations">Accepts reservations<br>
-                <input type="checkbox" name="type" value="Wifi">Wifi<br>
-                <input type="checkbox" name="type" value="Wifi">Accepts credit cards<br>
-                <input type="checkbox" name="type" value="Take out">Take out
+                <input class="type_check" type="checkbox" name="type" value="Reservations">Accepts reservations<br>
+                <input class="type_check" type="checkbox" name="type" value="Wifi">Wifi<br>
+                <input class="type_check" type="checkbox" name="type" value="Credit">Accepts credit cards<br>
+                <input class="type_check" type="checkbox" name="type" value="Take out">Take out
                 </form>
             </div>
         </div>
