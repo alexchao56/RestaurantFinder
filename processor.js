@@ -10,9 +10,5 @@ $.ajax({
 
 var data = $.csv.toObjects(csv_text);
 
-var markers = [];
-for data in result:
-	markers.push(data[""]);
-
-// TODO send markers to map
+// TODO send data to map
 
