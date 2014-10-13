@@ -5,11 +5,18 @@ var map;
 var markers = [];
 
 function initialize() {
-  var haightAshbury = new google.maps.LatLng(37.7699298, -122.4469157);
+  var waterloo = new google.maps.LatLng(43.4667, -80.5167);
+  var p1 = new google.maps.LatLng(43.471988, -80.5365704);
+  var p2 = new google.maps.LatLng(43.4725940388016, -80.5382770299911);
+  var p3 = new google.maps.LatLng(43.477593, -80.5250886);
+  var p4 = new google.maps.LatLng(43.471988, -80.5365704);
   var mapOptions = {
-    zoom: 12,
-    center: haightAshbury,
-    mapTypeId: google.maps.MapTypeId.TERRAIN
+    zoom: 13,
+    center: waterloo,
+    mapTypeId: google.maps.MapTypeId.TERRAIN,
+    panControl: false,
+    zoomControl: false,
+    scaleControl: false
   };
   map = new google.maps.Map(document.getElementById('map-canvas'),
       mapOptions);
@@ -20,7 +27,11 @@ function initialize() {
   });
 
   // Adds a marker at the center of the map.
-  addMarker(haightAshbury);
+  addMarker(waterloo);
+  addMarker(p1);
+  addMarker(p2);
+  addMarker(p3);
+  addMarker(p4);
 }
 
 // Add a marker to the map and push to the array.

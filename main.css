@@ -12,3 +12,9 @@
 #days {
 	margin-bottom: 10px;
 }
+
+#map-canvas {
+    width: 900px;
+    height: 600px;
+    float: left;
+}
