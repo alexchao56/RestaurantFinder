@@ -1,0 +1,291 @@
+"","business_id","full_address","open","city","review_count","name","longitude","state","stars","latitude","type","reservations","wifi","takeout","creditCards"
+"19198","vcwmvs5yM5Tf9vUy74zEhw","160 University Avenue W
+Waterloo, ON N2L 3E9",FALSE,"Waterloo",9,"McGinnis Frontrow Restaurant",-80.5365704,"ON",3.5,43.471988,"business",FALSE,"no",FALSE,TRUE
+"19200","5awoo-7qHP6LGdcCiLGMkg","3 Regina St N
+Waterloo, ON N2J 2Z7",TRUE,"Waterloo",13,"Masala Bay Fine Indian Dining",-80.5219384,"ON",3.5,43.465772,"business",TRUE,"no",TRUE,TRUE
+"19202","jPfaWUZtRKj3Lo7dNz6Lnw","272 King St N
+Waterloo, ON N2J 2Y9",TRUE,"Waterloo",39,"Morty's Pub",-80.5250886,"ON",4,43.477593,"business",TRUE,"no",TRUE,TRUE
+"19203","yfpixV5IGLY6uezjNiM7Ng","170 University Avenue W
+Waterloo, ON N2L 3E9",TRUE,"Waterloo",12,"The Pita Factory",-80.5382770299911,"ON",4.5,43.4725940388016,"business",FALSE,"no",TRUE,TRUE
+"19207","0jSLF-sYd23ZUAvXwqHDPg","262 King St N
+Waterloo, ON N2J 2Y9",TRUE,"Waterloo",24,"Bhima's Warung",-80.5250037834048,"ON",4.5,43.4774177316289,"business",TRUE,"free",FALSE,TRUE
+"19208","66XRExJOYvkbKiYfc2JQhg","160 University Avenue W
+Waterloo, ON N2L 3E9",TRUE,"Waterloo",12,"Vegetarian Fastfood Restaurant",-80.537082,"ON",4,43.471891,"business",FALSE,"no",TRUE,TRUE
+"19209","u0wY6ffKnBs5JNJgGmIG7Q","465 Phillip St
+Waterloo, ON N2L 6C7",TRUE,"Waterloo",7,"Koh I-Noor Restaurant",-80.5408262,"ON",3,43.4844189,"business",FALSE,"no",TRUE,TRUE
+"19211","Ipb_UqP54IjVxg174uT6tw","183 Weber Street N
+Waterloo, ON N2J 3H3",TRUE,"Waterloo",10,"Benny's Family Restaurant & Lounge",-80.5178155,"ON",3,43.4755885,"business",FALSE,"no",TRUE,TRUE
+"19217","NIkRE72lwk-Fmp2Jr6xfew","160 Avenue University
+Waterloo, ON N2L 3E9",TRUE,"Waterloo",4,"China Legend",-80.536612,"ON",3.5,43.472091,"business",FALSE,"no",FALSE,FALSE
+"19219","qm4mo4XqntQAIXGh8V9NDQ","255 King Street N
+Waterloo, ON N2J 4V2",TRUE,"Waterloo",9,"Sakura Island Restaurant",-80.5256905,"ON",4,43.4770992,"business",TRUE,"no",TRUE,TRUE
+"19220","xIju4RdGQ9waB_E6E1DCAg","150 University Avenue W
+Waterloo, ON N2L 3E4",TRUE,"Waterloo",4,"The Pita Pit",-80.5361832,"ON",2,43.4722801,"business",FALSE,"no",TRUE,TRUE
+"19222","agLIxM7QfuJmfTNf6ktaOg","170 University Avenue W
+Waterloo, ON N2L 3E9",TRUE,"Waterloo",7,"Seoul Soul",-80.538629,"ON",3,43.472371,"business",FALSE,"no",TRUE,TRUE
+"19225","e6CFLu0S6ML97Qls_csnmw","85 King Street N
+Waterloo, ON N2J 2X3",TRUE,"Waterloo",4,"Failte Irish Pub",-80.5233044,"ON",3.5,43.4679985,"business",FALSE,"no",FALSE,TRUE
+"19227","QQ1Yky64kfZeoSdv1ascMw","15 King Street S
+Waterloo, ON N2J 1N9",FALSE,"Waterloo",9,"The Rude Native Bistro",-80.5223045,"ON",2,43.4646939,"business",FALSE,"no",FALSE,TRUE
+"19228","4ds-oi5g3gf1GZeNo50VKw","384 King Street N
+Waterloo, ON N2J 2Z3",TRUE,"Waterloo",23,"Ennio's Pasta House",-80.5260902,"ON",3.5,43.483456,"business",TRUE,"no",TRUE,TRUE
+"19230","-2BNc33MHRuXljtCkXcLPg","59 King Street N
+Waterloo, ON N2J 2X2",TRUE,"Waterloo",6,"Lion Brewery Restaurant",-80.5228895,"ON",2.5,43.467046,"business",FALSE,"no",FALSE,TRUE
+"19233","LPNIKZPVt5W5iOWA7VsDJQ","258 King Street N
+Waterloo, ON N2J 4V2",TRUE,"Waterloo",18,"King Tin Restaurant",-80.525,"ON",3,43.476903,"business",TRUE,"no",TRUE,FALSE
+"19236","5CWTPfVpE-yK4R7Y3vKygQ","8 William St E
+Waterloo, ON N2J 1K9",TRUE,"Waterloo",10,"Marbles Restaurant",-80.521002,"ON",3,43.4622033,"business",FALSE,"no",FALSE,TRUE
+"19238","euqheLtx4V3-T3yaOFK7TQ","170 Avenue University W
+Waterloo, ON N2L 3E9",FALSE,"Waterloo",6,"Phat Cat Restaurant",-80.537061,"ON",3,43.472566,"business",FALSE,"no",FALSE,FALSE
+"19240","5U7oz95bINkyw_L8RckGEA","160 University Avenue W
+Waterloo, ON N2L 3E9",TRUE,"Waterloo",18,"Mikey's Eatery",-80.5377496406436,"ON",3,43.4723280992129,"business",FALSE,"no",TRUE,TRUE
+"19241","2uAu33sEzH32T_MACquC8w","402 King St N
+Waterloo, ON N2J 2Z3",TRUE,"Waterloo",8,"Twice the Deal Pizza",-80.5267442,"ON",4,43.48499,"business",FALSE,"no",TRUE,TRUE
+"19245","dbObnYBNgKR-ADGhLfLm_A","59 King St N
+Waterloo, ON N2J 2X2",TRUE,"Waterloo",9,"Barley Works Bar & Grill",-80.5228895,"ON",2.5,43.467046,"business",FALSE,"no",FALSE,FALSE
+"19247","wKSupdOGziF7c4ZzvQpfug","220 King Street N
+Waterloo, ON N2J 2Y7",TRUE,"Waterloo",6,"Raintree Cafe",-80.5243892,"ON",4.5,43.4752375,"business",FALSE,"no",FALSE,TRUE
+"19248","Vz2bGRrQ1mOjOR6lcaw7Kg","47 Erb Street W
+Waterloo, ON N2L 1S8",TRUE,"Waterloo",22,"Angie's Waterloo",-80.5242138,"ON",4,43.4646811,"business",TRUE,"free",TRUE,TRUE
+"19251","TFXi2C_O5FYLoVXEANJC8A","160 W University Avenue
+Unit 1
+Waterloo, ON N2L 3E9",TRUE,"Waterloo",4,"Mr Panino",-80.536591,"ON",2.5,43.471998,"business",FALSE,"no",FALSE,TRUE
+"19252","ej_Ovd4GuqnFv6d4i54Z7Q","150 Caroline St S
+Waterloo, ON N2M 1P2",TRUE,"Waterloo",36,"Vincenzo's",-80.5193889,"ON",4.5,43.4596341,"business",FALSE,"no",TRUE,TRUE
+"19254","XI605V-ZprXEMhFzGkpkaQ","160 Av University O
+Waterloo, ON N2L 3E9",TRUE,"Waterloo",9,"Taste of Taiwan Home Garden",-80.5364492,"ON",4,43.4720225,"business",FALSE,"no",TRUE,TRUE
+"19258","U7PiSfu-xOvNVRXKqNOgAA","36 Northfield Drive E
+Unit 1
+Waterloo, ON N2L 6A1",TRUE,"Waterloo",38,"Ben Thanh",-80.53118,"ON",3.5,43.502488,"business",TRUE,"no",TRUE,TRUE
+"19260","9tWxINfoP5FPf9BTaX4_nA","597 King Street N
+Waterloo, ON N2V 2N3",TRUE,"Waterloo",8,"Boston Pizza",-80.5351869,"ON",3,43.5030738,"business",TRUE,"free",TRUE,TRUE
+"19262","SNURWpGRcT8sCXbCMkBWQA","79 Regina Street North
+Waterloo, ON N2J 3A7",TRUE,"Waterloo",6,"Lotus Tea House",-80.5224956,"ON",5,43.4697612,"business",FALSE,"no",FALSE,TRUE
+"19265","xq7SoGiBbXFgCY9Cg4yzsw","95 King Street S
+Waterloo, ON N2J 5A2",TRUE,"Waterloo",5,"Starbucks",-80.5219541117549,"ON",3,43.4628223628496,"business",FALSE,"no",FALSE,FALSE
+"19269","oHdA-zwQ2k_RzDIa6JaclA","256 Weber St N
+Waterloo, ON N2J 3H6",TRUE,"Waterloo",8,"Sonny's Drive-In Limited",-80.5203846,"ON",4,43.4787316,"business",FALSE,"no",TRUE,TRUE
+"19274","OWlG92z5xteWsVzIByRxfA","170 University Avenue W
+Unit 10
+Waterloo, ON N2L 3L9",TRUE,"Waterloo",6,"Harvey's",-80.5388363108673,"ON",3.5,43.4717869083268,"business",FALSE,"no",TRUE,TRUE
+"19277","JxyHe2llgblxn5JvA5BsMg","55 Northfield Drive E
+Waterloo, ON N2K 3T6",TRUE,"Waterloo",11,"Yummyaki Japanese Restaurant",-80.5276372050324,"ON",3.5,43.5026116045707,"business",TRUE,"no",TRUE,TRUE
+"19280","UUcZWaHzU30B7EtKaxDllA","91 University Avenue E
+Waterloo, ON N2J 2W1",TRUE,"Waterloo",4,"Pizza Hut",-80.5183755,"ON",4,43.4782831,"business",FALSE,"no",TRUE,TRUE
+"19285","eJ-8iLUvCwO_gZbFMmXbgg","247 King St N
+Waterloo, ON N2J 2Y8",TRUE,"Waterloo",3,"Booster Juice",-80.5253004,"ON",3.5,43.4763761,"business",FALSE,"no",FALSE,FALSE
+"19286","WKiZiAwKrF81YcfAjnOSjA","160 University Avenue W
+Waterloo, ON N2L 3E9",TRUE,"Waterloo",5,"Bubble Tease Resto Bar Cafe",-80.536605,"ON",3,43.471974,"business",FALSE,"no",TRUE,TRUE
+"19287","lkRkcxD2rdifSTeHxmOT6A","160 University Avenue W
+Waterloo, ON N2L 3E9",TRUE,"Waterloo",12,"The Grill Burger Kitchen",-80.5371146276593,"ON",3.5,43.472500607277,"business",FALSE,"no",TRUE,TRUE
+"19290","r0TbVJL9ZuFLrm83wZroMg","267 Weber Street North
+Waterloo, ON N2J 3H8",TRUE,"Waterloo",4,"Swiss Chalet",-80.5211216,"ON",4,43.4793516,"business",FALSE,"no",FALSE,FALSE
+"19292","buTjdwY_xdi_KJaRb06dOw","247 King Street N
+Waterloo, ON N2J 2Y8",TRUE,"Waterloo",3,"Starbucks",-80.5253004,"ON",3.5,43.4763761,"business",FALSE,"no",TRUE,TRUE
+"19296","JQVafyWR6VwlDRiyK0QJpA","450 Erb Street W
+Waterloo, ON N2T 1H4",TRUE,"Waterloo",3,"Kam Yin Restaurant",-80.555717,"ON",4.5,43.452243,"business",FALSE,"no",FALSE,TRUE
+"19297","7KfgI59JMuYfL4yBKsl6BA","83 Erb St W
+Waterloo, ON N2L 6C2",TRUE,"Waterloo",10,"Sole Restaurant & Wine Bar",-80.5273068,"ON",4,43.463366,"business",TRUE,"no",FALSE,TRUE
+"19299","BadvVbLYqeWe1v1QUBcoUw","31 Avenue University E
+Waterloo, ON N2J 2V9",TRUE,"Waterloo",10,"China Garden Restaurant",-80.5230759,"ON",4,43.4768517,"business",TRUE,"no",TRUE,TRUE
+"19301","-EUA3cpfONgL9nwkmD4p-w","33 Erb Street W
+Waterloo, ON N2L 1S8",TRUE,"Waterloo",4,"Cafe Aroma",-80.5238819,"ON",4,43.4648096,"business",FALSE,"no",FALSE,TRUE
+"19304","NCvNgK91IqtSub9JmH8H7g","10 King St S
+Waterloo, ON N2J 1N8",TRUE,"Waterloo",9,"Crystal Palace Restaurant",-80.5223193,"ON",3.5,43.4648949,"business",TRUE,"no",TRUE,TRUE
+"19306","H_CQGmXaCBj3Qw-PZXswww","465 Phillip Street
+Waterloo, ON N2L 6C7",TRUE,"Waterloo",3,"Ming's Chinese Restaurant",-80.5408262,"ON",3.5,43.4844189,"business",FALSE,"no",TRUE,TRUE
+"19307","qOQotJKhbqstpVWkgeLWnA","160 University Ave W
+Waterloo, ON N2L 3E9",TRUE,"Waterloo",8,"Campus Pizza",-80.5381164327264,"ON",3,43.4721891678188,"business",FALSE,"no",TRUE,FALSE
+"19310","TVwEQNYOE3RI2d80ems-yw","170 University Ave W
+Waterloo, ON N2L 3E9",TRUE,"Waterloo",12,"Sweet Dreams Teashop",-80.5391085147858,"ON",4,43.4719665362848,"business",FALSE,"free",FALSE,TRUE
+"19312","XivYHEauoBk4Va9HjEmVsQ","255 King Street N
+Waterloo, ON N2J 4V2",TRUE,"Waterloo",5,"Jia Jia Lok Chinese Restaurant",-80.5256905,"ON",3.5,43.4770992,"business",FALSE,"no",TRUE,FALSE
+"19313","PAKFTqXk-pkqE6JOhVnlkg","5 Princess St W
+Waterloo, ON N2L 2X7",TRUE,"Waterloo",9,"Jane Bond Cafe",-80.523446,"ON",4,43.4667473,"business",FALSE,"no",FALSE,TRUE
+"19315","qinff4BZ55Ci0LC27HrJNA","170 University Avenue W
+Waterloo, ON N2L 3E9",TRUE,"Waterloo",10,"Mongolian Grill",-80.5392714589834,"ON",3,43.4721777321206,"business",TRUE,"free",TRUE,TRUE
+"19318","dVIG2Nc7qkoAoLp-o6faog","90 Weber Street N
+Waterloo, ON N2J 3G8",TRUE,"Waterloo",3,"Granny Bonn's Fish N Chips",-80.5137443,"ON",4,43.471126,"business",FALSE,"no",TRUE,FALSE
+"19319","asgyOV0D7tCZ4yp5ffw3Zg","341 Marsland Dr
+Waterloo, ON N2J 3Z2",TRUE,"Waterloo",3,"The Flying Dog",-80.5182138,"ON",4,43.483281,"business",TRUE,"no",FALSE,TRUE
+"19322","IqIp3Dqvsb5VD6ClFZZkJw","75 King Street S
+Unit 61-62
+Waterloo, ON N2J 1P2",TRUE,"Waterloo",13,"Thai Sun",-80.5223735,"ON",3,43.4639601,"business",TRUE,"no",TRUE,TRUE
+"19325","mNyXXerIPD8Zer88YidV4w","150 University Avenue W
+Waterloo, ON N2L 3E4",TRUE,"Waterloo",6,"Almadina Egyptian Cuisine",-80.5353761,"ON",3,43.4723904,"business",FALSE,"no",FALSE,FALSE
+"19327","ZtM2M2uxNNGHriS2AMKULA","75 King St S
+Waterloo, ON N2J 1P2",TRUE,"Waterloo",4,"Waterloo Valumart",-80.5223735,"ON",2.5,43.4639601,"business",FALSE,"no",FALSE,TRUE
+"19328","y0pmoFzlKOhozDmJPQYNcA","4 King Street N
+Waterloo, ON N2J 2W7",TRUE,"Waterloo",27,"Symposium Cafe",-80.5224115,"ON",3,43.4652496,"business",TRUE,"free",TRUE,TRUE
+"19330","hpMWllZfYKMTv8wM4QuZcA","42 Northfield Dr E
+Waterloo, ON N2L 6A1",TRUE,"Waterloo",8,"Keg Steakhouse & Bar",-80.5302897,"ON",3.5,43.5029614,"business",TRUE,"no",FALSE,TRUE
+"21729","QLQ9qfaN-9WfqoTG-RekTw","75 King St S
+Waterloo, ON N2J 1P2",FALSE,"Waterloo",4,"Matter of Taste",-80.5223735,"ON",5,43.4639601,"business",FALSE,"free",FALSE,TRUE
+"21739","HAVSQenQvIsNVpCigZw-5w","150 University Ave W
+Waterloo, ON N2L 3E4",TRUE,"Waterloo",4,"Pizza Nova",-80.5362783,"ON",3,43.4724455,"business",FALSE,"no",TRUE,TRUE
+"22007","M6aafMDJtR8folbqGgcepg","140 University Avenue W
+Waterloo, ON N2L 6J3",TRUE,"Waterloo",34,"Mel's Diner",-80.53408,"ON",3,43.472901,"business",FALSE,"free",TRUE,TRUE
+"22683","CXAma-3il9i45krjt5jFqw","31 King Street N
+Waterloo, ON N2J",TRUE,"Waterloo",15,"Coffee Culture",-80.5226537,"ON",3,43.4660181,"business",FALSE,"free",FALSE,TRUE
+"23556","ey9Aqf4c7_6UHJdhdKJ_3Q","363 King St N
+Waterloo, ON N2J",TRUE,"Waterloo",4,"Bianca's Pizza",-80.5265919534424,"ON",4,43.4821435116808,"business",FALSE,"no",TRUE,TRUE
+"24371","voJwYWjdoiJABZGVKLe_5g","425 King St N
+Waterloo, ON N2J 2Z5",TRUE,"Waterloo",27,"Wildcraft",-80.5276539,"ON",3.5,43.4866257,"business",TRUE,"no",FALSE,TRUE
+"24372","-GR4Dvxhx6ddaDiUICOSFQ","187 King St S
+Unit 102
+Waterloo, ON N2J",TRUE,"Waterloo",48,"The Bauer Kitchen",-80.5190295,"ON",4,43.4593947,"business",TRUE,"free",TRUE,TRUE
+"27355","hklixCRElEQWkYrmPtwrqA","550 King Street N
+Waterloo, ON N2L",FALSE,"Waterloo",13,"Oliver & Bonacini Cafe Grill",-80.5274971,"ON",3.5,43.4980824,"business",TRUE,"no",FALSE,TRUE
+"27531","pVrIUD0nZp2CCDqvnVfPPQ","8 Regina Street N
+Unit 5
+Waterloo, ON N2J 2Z8",TRUE,"Waterloo",11,"Seven Shores Urban Market and Cafe",-80.521127,"ON",4.5,43.465845,"business",FALSE,"free",FALSE,TRUE
+"27706","46ccZvl-ciVh7dv-15fabQ","120 King Street S
+Waterloo, ON N2J 1P5",FALSE,"Waterloo",4,"Whole Lot-a Gelata",-80.5214813,"ON",4,43.4624976,"business",FALSE,"no",FALSE,TRUE
+"28832","bk2YUek5KaMP8LjN5jZ8_w","258 King Street N
+Waterloo, ON N2J 2Y9",TRUE,"Waterloo",21,"Burrito Boyz",-80.5250775,"ON",3.5,43.4773799,"business",FALSE,"no",TRUE,TRUE
+"29204","ObjjaNoW5ka25Z7tgxVHFg","244 Weber Street N
+Waterloo, ON N2J 3H5",TRUE,"Waterloo",16,"Johnny Fresco",-80.519073754549,"ON",3.5,43.4780120902132,"business",FALSE,"no",TRUE,TRUE
+"29552","LN0C9zNfQBlDfpt1ILDFNQ","878 Weber Street N
+Waterloo, ON N2V 2J9",TRUE,"Waterloo",17,"St Jacob's Farmer's Market",-80.557243,"ON",4.5,43.5129099,"business",FALSE,"no",FALSE,TRUE
+"29843","HwStBN9sxx3sxGCNHgnG6A","181 King Street S
+Waterloo, ON N2J 1P7",TRUE,"Waterloo",4,"Brick Brewery",-80.5198564,"ON",3.5,43.4605412,"business",FALSE,"no",FALSE,TRUE
+"29883","MdCOlabcfbxwc7zFLVgRuw","37 King Street N
+Waterloo, ON N2J 2W9",FALSE,"Waterloo",8,"Ish and Chips",-80.522682,"ON",3,43.4661277,"business",FALSE,"no",TRUE,TRUE
+"29996","zD_0Ubr8kY7vGIwxKZCZZw","450 King St N
+Waterloo, ON N2J 2Z6",TRUE,"Waterloo",7,"East Side Mario's",-80.5263265,"ON",2,43.4874712,"business",TRUE,"no",FALSE,FALSE
+"30045","kjYB71u_mUoE2w-_NnN4Ig","150 University Avenue W
+Suite 3
+Waterloo, ON N2L 3E4",TRUE,"Waterloo",11,"Meet Point Restaurant",-80.5358885228634,"ON",3.5,43.4724417258775,"business",TRUE,"free",TRUE,TRUE
+"30313","EhBSVPbSw1pKE0gg4u2Kqg","15 King Street N
+Waterloo, ON N2J 2W6",TRUE,"Waterloo",34,"Watami Sushi & Sake Bar",-80.5225153,"ON",4,43.4655803,"business",TRUE,"no",TRUE,TRUE
+"30508","OMhZZCPBnw4U_IHxy3M23A","450 Erb St W
+Waterloo, ON N2T 1H4",TRUE,"Waterloo",4,"Zehrs Markets",-80.555717,"ON",4.5,43.452243,"business",FALSE,"no",FALSE,TRUE
+"30511","zRc17iJZWZQQYE3E5uWxrg","355 Erb St W
+Waterloo, ON N2L 1W4",FALSE,"Waterloo",4,"Baker's Cove Seafood Restaurant",-80.5470366,"ON",3.5,43.4546047,"business",TRUE,"no",TRUE,TRUE
+"30598","6ObEB-xmhsENRXYcqEU6ag","283 Northfield Dr E
+Waterloo, ON N2J 4G8",TRUE,"Waterloo",3,"St. Louis Bar & Grill",-80.5216805,"ON",3.5,43.511125,"business",FALSE,"no",FALSE,TRUE
+"30705","2ekt7hZde4jY7fenBuG-pw","247 King St N
+Ste 2
+Waterloo, ON N2J 2Y8",TRUE,"Waterloo",14,"Mozy's Shawarma",-80.5257028341293,"ON",4.5,43.4760346027537,"business",FALSE,"no",TRUE,TRUE
+"30818","GitvoU8mPOLieMiiw503rg","36 Northfield Dr E
+Waterloo, ON N2L 6A1",TRUE,"Waterloo",20,"Sushi 99",-80.531612,"ON",3.5,43.502486,"business",TRUE,"no",TRUE,TRUE
+"30819","ayvalHAS3S1elCbYR-Qfjw","583 King St N
+Waterloo, ON N2V 2N3",FALSE,"Waterloo",19,"Ye's Sushi",-80.5338427,"ON",3.5,43.5019785,"business",TRUE,"no",TRUE,TRUE
+"30843","n9tzswbOPrdqoNlcWPRhtw","160 Columbia Street W
+Waterloo, ON N2L 3L3",TRUE,"Waterloo",7,"Mambella's",-80.5413197,"ON",4.5,43.4767552,"business",FALSE,"no",TRUE,TRUE
+"30989","769PY-WytNoFeTFNxjcK0g","4 King Street N
+Waterloo, ON N2J 2W7",FALSE,"Waterloo",6,"Margarita's",-80.5222954,"ON",2.5,43.4654214,"business",FALSE,"no",FALSE,TRUE
+"31081","TXpblNI207D-ddLzTGnU_w","75 King Street S
+Waterloo, ON N2J 1P2",TRUE,"Waterloo",7,"Cora's",-80.522773,"ON",3.5,43.4638688,"business",FALSE,"no",TRUE,TRUE
+"31150","-7Pwuxq7C04iKBiE6haISQ","247 King Street N
+Waterloo, ON N2J 4V2",TRUE,"Waterloo",7,"Tasty Home Kitchen",-80.5251994,"ON",4.5,43.4763851,"business",FALSE,"no",TRUE,TRUE
+"31461","tnnG9W2K-rOP0i8K1LOCmQ","203 King Street S
+Waterloo, ON N2J 1R1",TRUE,"Waterloo",7,"Sabletine Fine Pastries",-80.5180074,"ON",3.5,43.4594631,"business",FALSE,"no",FALSE,TRUE
+"31462","bZ2eSviNY1bZJI7iSK4iiQ","20 Benjamin Rd
+Waterloo, ON N2V 2J9",TRUE,"Waterloo",10,"Jack's Family Restaurant",-80.5553725,"ON",3,43.5085071,"business",TRUE,"no",TRUE,TRUE
+"31527","qb55mu06oq9RpKNny8xkoQ","170 University Avenue W
+Waterloo, ON N2L 3E9",TRUE,"Waterloo",12,"East Side Mario's",-80.5385030061007,"ON",2.5,43.4715548482714,"business",FALSE,"no",TRUE,TRUE
+"31752","FDKGQmZbP-4T_QVpbikdMw","75 King Street S
+Waterloo, ON N2J 1N9",TRUE,"Waterloo",14,"Zoup!",-80.5230188148194,"ON",4,43.4634048577185,"business",FALSE,"free",TRUE,TRUE
+"31947","E99htvbbJwD_R31C8urmoA","51 King St N
+Waterloo, ON N2J 2W9",TRUE,"Waterloo",17,"My Thai",-80.5229164,"ON",4,43.4666356,"business",TRUE,"free",TRUE,TRUE
+"32235","SsV9YH7aPh7PePHNjLg62Q","170 University Avenue W
+Waterloo, ON N2L 3E9",TRUE,"Waterloo",20,"Williams Fresh Cafe",-80.538777203332,"ON",3.5,43.472319669919,"business",FALSE,"free",TRUE,TRUE
+"33014","jmCTyc_KgUsHpdZKBBTklQ","46 King St N
+Waterloo, ON N2J 2W8",TRUE,"Waterloo",6,"Princess Cafe",-80.5225426,"ON",4,43.4665383,"business",FALSE,"no",TRUE,FALSE
+"33102","jYJ7RXA8qORygo2l11VN1g","103 King Street N
+Waterloo, ON N2J 2X5",TRUE,"Waterloo",6,"Empress of India",-80.5238313227892,"ON",4,43.4687909670668,"business",TRUE,"no",TRUE,TRUE
+"33239","LD5HgMFWBgmbP8L5oIHOaw","170 University Avenue W
+Waterloo, ON N2L 3E9",TRUE,"Waterloo",10,"Grab A Greek",-80.5379263311625,"ON",4,43.4727188572535,"business",FALSE,"no",TRUE,TRUE
+"33362","WCnD3K16HbrEPg7_WZXa_Q","247 King Street N
+Waterloo, ON N2L 3C2",TRUE,"Waterloo",22,"Frat Burger",-80.5251994,"ON",3.5,43.4763851,"business",FALSE,"no",TRUE,TRUE
+"33375","u6M2sung_shgqLFHJOXnjQ","95 King Street South
+Waterloo, ON N2J 1N9",TRUE,"Waterloo",3,"DAVIDsTEA",-80.5220054,"ON",4.5,43.4636404,"business",FALSE,"no",FALSE,TRUE
+"33406","hYdlasiLgVG_BYTsVKSYnQ","255 King Street N
+Waterloo, ON N2J 2Y8",FALSE,"Waterloo",5,"Ausanda Chocolate",-80.5254079,"ON",4.5,43.4777702,"business",FALSE,"free",FALSE,TRUE
+"33616","PMClMEobREkuwxzxiaVIMw","90 King St N
+Waterloo, ON N2J 2X2",TRUE,"Waterloo",4,"Harmony Lunch",-80.5230569,"ON",4.5,43.4682298,"business",FALSE,"no",TRUE,FALSE
+"34084","lWWKIdzgYNddKRYxbkO7SA","84 King Street North
+Waterloo, ON N2J 2X2",TRUE,"Waterloo",26,"Death Valley's Little Brother",-80.5229583,"ON",4,43.4679659,"business",FALSE,"free",FALSE,TRUE
+"34150","8U46CxZHRPuGRdnq2dFW4Q","619 Wild Ginger Avenue
+Waterloo, ON N2V 2S9",TRUE,"Waterloo",5,"Sogo Cuisine",-80.5939264,"ON",5,43.4704487,"business",FALSE,"no",FALSE,FALSE
+"34226","krdgHbil2McRJPB_WQ5fHQ","40 King Street S
+Waterloo, ON N2J 2W8",TRUE,"Waterloo",10,"King Street Trio",-80.5220816251312,"ON",4,43.4643953731149,"business",TRUE,"no",FALSE,TRUE
+"34332","zEJxugenoiGFQ_ZZUVPnAw","170 University Avenue West
+Suite 19
+Waterloo, ON N2L 3E9",TRUE,"Waterloo",13,"Chen's Oriental Cuisine",-80.536079,"ON",3.5,43.472293,"business",FALSE,"no",TRUE,TRUE
+"34368","fsuvopNXyxkPHQ1V9h5byA","315 Lincoln Road
+Waterloo, ON N2J 4H7",TRUE,"Waterloo",3,"Zehrs",-80.5076985,"ON",4,43.483387,"business",FALSE,"no",FALSE,TRUE
+"34453","5MZrOEUD-L2B_v8X-ZxrHA","36 Northfield Drive East
+Waterloo, ON N2L 6A1",TRUE,"Waterloo",6,"Smokin Tony's",-80.531612,"ON",4,43.502486,"business",TRUE,"no",TRUE,TRUE
+"34989","gSqErDgz-MRp9C0Sp4mwJg","190 Weber Street N
+Waterloo, ON N2J 3H5",TRUE,"Waterloo",3,"Angel's Family Restaurant",-80.5178879,"ON",3.5,43.4758781,"business",TRUE,"no",TRUE,TRUE
+"35072","NbyrgNMWwNJcZmxr3Gj61Q","845 Weber Street N
+Waterloo, ON N2L 6J2",TRUE,"Waterloo",11,"The Crazy Canuck",-80.557017,"ON",4.5,43.511102,"business",FALSE,"no",TRUE,TRUE
+"35158","b5J9TrtosHDCkepP0-8jOQ","170 University Avenue W
+Waterloo, ON N2L 3E9",TRUE,"Waterloo",9,"Waterloo Star",-80.536079,"ON",4,43.472293,"business",FALSE,"no",TRUE,TRUE
+"35160","1h48pwnf6pwlKQWGLOk_Kw","247 King Street N
+Unit 3
+Waterloo, ON N2J 2Y7",TRUE,"Waterloo",4,"Menchie's Frozen Yogurt",-80.5255748,"ON",3.5,43.4761013,"business",FALSE,"no",FALSE,TRUE
+"35207","3is8-n8i-3r2M1NslA-BVQ","Waterloo, ON N2L 3E9",TRUE,"Waterloo",5,"Panda King",-80.5386362,"ON",4,43.4720841,"business",FALSE,"no",FALSE,TRUE
+"35424","Lq-iJqgKjAl6-w0ogUtFwA","92 King Street S
+Waterloo, ON N2J 4V1",TRUE,"Waterloo",22,"The Works",-80.5215754,"ON",3.5,43.4631816,"business",TRUE,"no",TRUE,TRUE
+"35527","Bmyd-S_ufTU8MbF4Ry2sbA","645 Laurelwood Drive
+Waterloo, ON N2V 2S9",TRUE,"Waterloo",3,"Bogda",-80.5930217,"ON",3.5,43.4704885,"business",FALSE,"no",FALSE,FALSE
+"35726","f_C5ViMqSi19M5_w39v5vA","100 King Street S
+Waterloo, ON N2J",TRUE,"Waterloo",9,"Honey Bake Shop",-80.521758,"ON",4,43.4628918,"business",TRUE,"free",TRUE,FALSE
+"35798","G4DOzmqIj36ckJVJk4DJsw","410 King Street N
+Waterloo, ON N2J 2Z6",TRUE,"Waterloo",5,"Harvey's",-80.526320412755,"ON",4.5,43.4847364744245,"business",FALSE,"no",TRUE,TRUE
+"35933","hyBElfDr9soQ1IAxUAtmFg","22 King Street S
+Waterloo, ON N2J 1N8",TRUE,"Waterloo",3,"Cafe 22",-80.5220555,"ON",4.5,43.4646959,"business",FALSE,"no",TRUE,TRUE
+"36178","OArbu8-R2-Q42GeK-pXGYg","255 King Street N
+Unit 15
+Waterloo, ON N2J 4V2",TRUE,"Waterloo",12,"Smoke's Poutinerie",-80.5256659537554,"ON",2.5,43.4776315846131,"business",FALSE,"no",TRUE,TRUE
+"36206","fVOxPX70sxVApYJQr5G05Q","402 King Street N
+Waterloo, ON N2J 2Z4",TRUE,"Waterloo",7,"New Asia Fast Food",-80.5265216,"ON",3,43.4842604,"business",FALSE,"no",TRUE,TRUE
+"36324","IcCODw7J4tD3iWpH0Td6-g","255 King Street N
+Waterloo, ON N2J 4V2",FALSE,"Waterloo",3,"YoYo's Yogurt Cafe",-80.5256905,"ON",3.5,43.4770992,"business",FALSE,"no",FALSE,TRUE
+"36672","kdq8IpZHw_ehrZSXLIqcOg","2 King Street N
+Waterloo, ON N2J 1N9",TRUE,"Waterloo",13,"The Famous Owl Of Minerva Korean Restaurant & Bar",-80.5222854,"ON",3.5,43.4653831,"business",FALSE,"no",TRUE,TRUE
+"36764","BjAzoh8ybX1i0DgeCQmtZA","663 Erb Street W
+Waterloo, ON N2J 3Z4",TRUE,"Waterloo",4,"Dutchie's Fresh Market",-80.5706208,"ON",3.5,43.4444541,"business",FALSE,"no",FALSE,TRUE
+"36774","rf63Be15GKo8Xa1pHBjsBg","2 King Street North
+Unit 4/5
+Waterloo, ON N2J 2W7",TRUE,"Waterloo",3,"Musha Hotpot Restaurant",-80.5222854,"ON",3,43.4653831,"business",FALSE,"free",FALSE,TRUE
+"37101","6TXQe14Y5n3FPAFeVE8onQ","75 King Street S
+Waterloo, ON N2J",TRUE,"Waterloo",18,"Beertown",-80.522773,"ON",3,43.4638688,"business",TRUE,"no",TRUE,TRUE
+"37139","6T0XTVXm9rzx5pJXx5euyQ","140 University Avenue W
+Waterloo, ON N2L",FALSE,"Waterloo",4,"Happy Valley's Congee & Bar",-80.534474418001,"ON",3.5,43.472881,"business",TRUE,"free",FALSE,TRUE
+"37649","uVNhjZbAjraiidicvedEnQ","170 University Avenue W
+Unit 37
+Waterloo, ON N2L 3E9",TRUE,"Waterloo",13,"Waterloo Sogo Restaurant",-80.5363082885742,"ON",3.5,43.4748473006483,"business",FALSE,"no",TRUE,FALSE
+"38149","EkhrRWzevfFJc8Pm2dVPEA","140 University Avenue W
+Waterloo, ON N2L 3W6",TRUE,"Waterloo",9,"Mr. Sushi",-80.534037,"ON",1.5,43.472948,"business",FALSE,"no",TRUE,TRUE
+"38712","uDnk7KIvTdGbFwlnKj3zyg","253 King St North
+Waterloo, ON N2J 2Y8",TRUE,"Waterloo",3,"Shoeless Joe's Sports Grill",-80.5254781991243,"ON",3.5,43.4766992871074,"business",TRUE,"no",FALSE,TRUE
+"38871","V0-zOhvwpPxU4u7aVqSG0w","65 University Avenue E
+Waterloo, ON N2J 2V9",TRUE,"Waterloo",3,"WingsUp!",-80.520759,"ON",4.5,43.4768671,"business",FALSE,"no",TRUE,TRUE
+"39168","v5xwwjS89KjOREvZdOUoPg","253 King Street N
+Waterloo, ON N2J 2Y8",TRUE,"Waterloo",9,"itamae AYCE Sushi",-80.5252519,"ON",3,43.4766504,"business",TRUE,"no",TRUE,TRUE
+"39260","iZ3mPsUct87y-yBGm_8CrQ","8 Erb Street W
+Waterloo, ON N2L 1S7",TRUE,"Waterloo",24,"Taco Farm",-80.5228558,"ON",4,43.4652318,"business",TRUE,"no",TRUE,TRUE
+"39755","nDqeydIBH7I2BMuE_dxk-g","255 King Street N
+Waterloo, ON N2J 4V2",TRUE,"Waterloo",4,"Big Tex's Burgers & BBQ",-80.5254079,"ON",4.5,43.4777702,"business",FALSE,"no",TRUE,TRUE
+"39757","5rey-XaWik7SohVUzbfh3g","65 University Avenue E
+Waterloo, ON N2J 2V9",TRUE,"Waterloo",4,"Crabby Joes Tap & Grill",-80.5204039869182,"ON",2.5,43.4775331384551,"business",FALSE,"no",FALSE,FALSE
+"40193","_7rYRHy6Jfmk7yIkjooaEg","220 King Street N
+Waterloo, ON N2J 4Z4",TRUE,"Waterloo",5,"Noon Moment",-80.5234931452275,"ON",4,43.4752138264218,"business",FALSE,"free",TRUE,TRUE
+"40202","lmPFH4eyowWiX5Q1ttf7gw","14 King St N
+Waterloo, ON N2J 2W9",TRUE,"Waterloo",7,"Hot Wheels Tea House",-80.5222931,"ON",4,43.4655952,"business",FALSE,"free",TRUE,FALSE
+"40785","HNDzbJopEXjGn78LAKOhSA","140 University Avenue W
+Waterloo, ON N2L 3W6",TRUE,"Waterloo",10,"Kenzo Japanese Noodles House",-80.5353705212474,"ON",3,43.4729794423135,"business",FALSE,"no",TRUE,TRUE
+"41372","H2AhZbhQ9CJ66MjzpSh-1g","15 King Street S
+Waterloo, ON N2J 1N9",TRUE,"Waterloo",6,"Famoso Neapolitan Pizzeria",-80.5223045,"ON",3,43.4646939,"business",TRUE,"free",TRUE,TRUE
+"41667","bnWEP4mB1npXjgVNa5-9Ug","396 King Street N
+Waterloo, ON N2J 2Z3",TRUE,"Waterloo",11,"Busan Korean BBQ",-80.5265643,"ON",3,43.4841189,"business",TRUE,"no",FALSE,TRUE
+"41673","cXpMb3aCwMUsWikcXL7qJQ","150 University Avenue W
+Waterloo, ON N2L 6J3",TRUE,"Waterloo",12,"Grace and Healthy Premium Dumplings",-80.5361590906978,"ON",4.5,43.4725838197356,"business",FALSE,"no",TRUE,TRUE
+"42067","lmmDRNJZ2nq2Wxfkmmy7Jg","220 King Street N
+Waterloo, ON N2J 4V7",TRUE,"Waterloo",6,"Sorena Kebab House",-80.5245553,"ON",4,43.4750114,"business",FALSE,"free",FALSE,TRUE
+"42128","F8ZrWvngdHYnKrALwZAdBw","255 King Street N
+Waterloo, ON N2J",TRUE,"Waterloo",6,"Chatime",-80.5254986509681,"ON",4,43.477273946091,"business",FALSE,"free",TRUE,TRUE
