@@ -23,9 +23,9 @@ function initialize() {
       mapOptions);
 
   // This event listener will call addMarker() when the map is clicked.
-  google.maps.event.addListener(map, 'click', function(event) {
+/*  google.maps.event.addListener(map, 'click', function(event) {
     addMarker(event.latLng);
-  });
+  });*/
 
   // Adds a marker at the center of the map.
   // addMarker(waterloo);
