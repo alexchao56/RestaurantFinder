@@ -66,9 +66,9 @@ function handleConstraintsChange(new_constraints) {
 function filter(start) {
 	validMarkers = [];
 
-	for (item in start) {
-		if (check(item)) {
-			validMarkers.push(item)
+	for (index in start) {
+		if (check(start[index])) {
+			validMarkers.push(start[index])
 		}
 	}
 	//TODO send validMarkers to google maps
@@ -94,7 +94,7 @@ function check(item) {
 		valid = valid && parseFloat(item["stars"]) >= constraints["min_stars"];
 	}
 	if (constraints["max_stars"] !== undefined) {
-		valid = valid && parseFloat(tem["stars"]) <= constraints["max_stars"];
+		valid = valid && parseFloat(item["stars"]) <= constraints["max_stars"];
 	}
 	if (constraints["min_reviews"] !== undefined) {
 		valid = valid && parseFloat(item["review_count"]) >= constraints["min_reviews"];
@@ -102,16 +102,16 @@ function check(item) {
 	if (constraints["max_reviews"] !== undefined) {
 		valid = valid && parseFloat(item["review_count"]) <= constraints["max_reviews"];
 	}
-	if (constraints["Reservations"] !== undefined) {
-		valid = valid && item["reservations"] === "TRUE"
+	if (constraints["Reservations"] !== undefined && constraints["Reservations"]) {
+		valid = valid && item["reservations"] === "TRUE" 
 	}
-	if (constraints["Wifi"] !== undefined) {
-		valid = valid && item["wifi"] === "yes"
+	if (constraints["Wifi"] !== undefined && constraints["Wifi"]) {
+		valid = valid && item["wifi"] === "free"
 	}
-	if (constraints["Credit"] !== undefined) {
+	if (constraints["Credit"] !== undefined && constraints["Credit"]) {
 		valid = valid && item["creditCards"] == "TRUE"
 	}
-	if (constraints["Take out"] !== undefined) {
+	if (constraints["Take out"] !== undefined && constraints["Take out"]) {
 		valid = valid && item["takeout"] == "TRUE"
 	}
 	// TODO handle time
