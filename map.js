@@ -36,10 +36,38 @@ function initialize() {
 function addMarker(location, row_id) {
   var marker = new google.maps.Marker({
     position: location,
-    map: map
+    map: map,
+    title: row_id + ""
   });
   markers.push(marker);
   markers_map[row_id] = marker;
+
+  var address = getAddress(row_id);
+  var name = getName(row_id);
+  var message = "<p>" + name + "</p> \
+      <p>" + address + "</p>";
+
+  var infoWindow = new google.maps.InfoWindow({
+    //content: markers_map[row_id]["name"] + "\n" + markers_map[row_id]["full_address"]
+    //content: name;
+    //content: "<p>Restaurant name</p> \
+      //    <p>1111 Fake Address Dr. Berkeley, CA 94720</p>"
+  })
+
+  infoWindow.setContent(message);
+
+  google.maps.event.addListener(marker, 'click', function() {
+    infoWindow.open(map, marker)
+  });
+
+
+  closeInfoWindow = function() {
+    infoWindow.close();
+  }
+
+  google.maps.event.addListener(map, 'click', closeInfoWindow);
+
+  
 }
 
 // Sets the map on all markers in the array.
@@ -86,6 +114,22 @@ function handleUpdate() {
             markers_map[data[i][""]].setMap(null);
             markers.splice($.inArray(markers_map[data[i][""]], markers), 1);
           }   
+        }
+    }
+}
+
+function getAddress(row_id) {
+    for (var i = 0; i < validMarkers.length; i++) {
+        if (validMarkers[i][""] == row_id) {
+            return validMarkers[i]["full_address"]
+        }
+    }
+}
+
+function getName(row_id) {
+    for (var i = 0; i < validMarkers.length; i++) {
+        if (validMarkers[i][""] == row_id) {
+            return validMarkers[i]["name"];
         }
     }
 }
