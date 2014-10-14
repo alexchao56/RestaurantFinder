@@ -16,7 +16,7 @@ var constraints = {};
 var validMarkers = data.slice(0);
 
 var LAT = 43.4667;
-var LON = 80.5167;
+var LON = -80.5167;
 var R = 3961;
 
 function handleConstraintsChange(new_constraints) {
@@ -80,13 +80,17 @@ function check(item) {
 	if (constraints["min_dist"] !== undefined) {
 		lon2 = parseFloat(item["longitude"]);
 		lat2 = parseFloat(item["latitude"]);
-		var dlon = lon2 - LON;
-		var dlat = lat2 - LAT;
-		var a = (Math.sin(dlat/2))^2 + Math.cos(LAT) * Math.cos(lat2) * (Math.sin(dlon/2))^2;
-		c = 2 * Math.atan2( Math.sqrt(a), Math.sqrt(1-a) );
-		d = R * c;
+		var change_lon = Math.abs(lon2 - LON);
+		var change_lat = Math.abs(lat2 - LAT);
+
+		var dlon = change_lon * 69;
+		var dlat = change_lat * 69;
+
+		var d = Math.sqrt(dlon^2 + dlat^2)*2+0.1;
 
 		valid = valid && d >= constraints["min_dist"];
+	}
+	if (constraints["max_dist"] !== undefined) {
 		valid = valid && d <= constraints["max_dist"];
 	}
 	if (constraints["min_stars"] !== undefined) {
@@ -124,9 +128,9 @@ $(function() {
 	$( "#dist_slider" ).slider({
 	  range: true,
 	  min: 0,
-	  max: 7,
+	  max: 6,
 	  step: 0.1,
-	  values: [ 0, 7],
+	  values: [ 0, 6],
 	  slide: function( event, ui ) {
 	    $( "#dist_amount" ).val(ui.values[ 0 ] + " - " + ui.values[ 1 ] + " mi");
 	  },
