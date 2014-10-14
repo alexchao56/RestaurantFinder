@@ -1,5 +1,6 @@
 #controls {
-	width:350px;
+	width: 25%;
+	min-width:150px;
 	margin: 20px;
 	float: right;
 }
@@ -14,7 +15,13 @@
 }
 
 #map-canvas {
-    width: 900px;
-    height: 600px;
+	width: 70%;
+    min-width: 700px;
+    height: 500px;
     float: left;
+}
+
+.title {
+	font-size: 25px;
+	text-align: center;
 }

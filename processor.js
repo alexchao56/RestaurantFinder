@@ -1,19 +1,22 @@
-csv_text = ""
-$.ajax({
-        url: 'waterlooAttributes.csv',
-        type: 'get',
-        async: false,
-        success: function(html) {
-                csv_text = html;
-        }
+// csv_text = ""
+// $.ajax({
+//         url: 'waterlooAttributes.csv',
+//         type: 'get',
+//         async: false,
+//         success: function(html) {
+//                 csv_text = html;
+//         }
+// });
+csv_text = "";
+data = [];
+validMarkers = [];
+$.get('waterlooAttributes.csv', function(dat) {
+  csv_text = dat;
+  data = $.csv.toObjects(csv_text);
+  validMarkers = data.slice(0);
 });
 
-var data = $.csv.toObjects(csv_text);
-// console.log(data[0])
-
 var constraints = {};
-
-var validMarkers = data.slice(0);
 
 var LAT = 43.4667;
 var LON = -80.5167;
@@ -24,41 +27,41 @@ function handleConstraintsChange(new_constraints) {
 	var min_reg = /^min/;
 	var max_reg = /^max/;
 
+	var full = false;
+
 	for (var name in new_constraints) {
 		if (constraints[name] === undefined){
 			constraints[name] = new_constraints[name];
-			filter(validMarkers);
-			return
 		}
 
 		if (min_reg.test(name)) {
 			if (new_constraints[name] >= constraints[name]) {
 				constraints[name] = new_constraints[name];
-				continue
 			}
 			else {
 				constraints[name] = new_constraints[name];
-				filter(data);
-				return
+				full = true;
 			}
 		} else if (max_reg.test(name)) {
 			if (new_constraints[name] <= constraints[name]) {
 				constraints[name] = new_constraints[name];
-				continue
 			}
 			else {
 				constraints[name] = new_constraints[name];
-				filter(data);
-				return
+				full = true;
 			}
 		} else {
 			constraints[name] = new_constraints[name];
-			filter(data);
-			return
+			full  = true;
 		}
 	}
 
-	filter(validMarkers);
+	if (full) {
+		filter(data);
+	} else {
+		filter(validMarkers);
+	}
+	
 
 }
 
@@ -70,7 +73,7 @@ function filter(start) {
 			validMarkers.push(start[index])
 		}
 	}
-	//TODO send validMarkers to google maps
+
 	handleUpdate();
 }
 
