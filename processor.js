@@ -13,7 +13,8 @@ var data = $.csv.toObjects(csv_text);
 
 var constraints = {};
 
-var markers = data.slice(0);
+var validMarkers = data.slice(0);
+console.log("PROCESSOR validMarkers" + validMarkers[0]);
 
 var LAT = 43.4667;
 var LON = 80.5167;
@@ -27,7 +28,7 @@ function handleConstraintsChange(new_constraints) {
 	for (var name in new_constraints) {
 		if (constraints[name] === undefined){
 			constraints[name] = new_constraints[name];
-			filter(markers);
+			filter(validMarkers);
 			return
 		}
 
@@ -58,20 +59,20 @@ function handleConstraintsChange(new_constraints) {
 		}
 	}
 
-	filter(markers);
+	filter(validMarkers);
 
 }
 
 function filter(start) {
-	markers = [];
+	validMarkers = [];
 
 	for (item in start) {
 		if (check(item)) {
-			markers.push(item)
+			validMarkers.push(item)
 		}
 	}
-
-	//TODO send markers to google maps
+	//TODO send validMarkers to google maps
+	handleUpdate();
 }
 
 function check(item) {

@@ -3,13 +3,14 @@
 // The user can then click an option to hide, show or delete the markers.
 var map;
 var markers = [];
+var markers_map = {};
 
 function initialize() {
   var waterloo = new google.maps.LatLng(43.4667, -80.5167);
-  var p1 = new google.maps.LatLng(43.471988, -80.5365704);
+/*  var p1 = new google.maps.LatLng(43.471988, -80.5365704);
   var p2 = new google.maps.LatLng(43.4725940388016, -80.5382770299911);
   var p3 = new google.maps.LatLng(43.477593, -80.5250886);
-  var p4 = new google.maps.LatLng(43.471988, -80.5365704);
+  var p4 = new google.maps.LatLng(43.471988, -80.5365704);*/
   var mapOptions = {
     zoom: 13,
     center: waterloo,
@@ -28,19 +29,18 @@ function initialize() {
 
   // Adds a marker at the center of the map.
   addMarker(waterloo);
-  addMarker(p1);
-  addMarker(p2);
-  addMarker(p3);
-  addMarker(p4);
+  fillMap();
+  console.log("MAP MARKERS" + markers[0]);  
 }
 
 // Add a marker to the map and push to the array.
-function addMarker(location) {
+function addMarker(location, row_id) {
   var marker = new google.maps.Marker({
     position: location,
     map: map
   });
   markers.push(marker);
+  markers_map[row_id] = marker;
 }
 
 // Sets the map on all markers in the array.
@@ -64,6 +64,25 @@ function showMarkers() {
 function deleteMarkers() {
   clearMarkers();
   markers = [];
+}
+
+//Fill map with initial markers
+function fillMap() {
+    for (var i = 0; i < data.length; i++) {
+        var point = new google.maps.LatLng(data[i]["latitude"], data[i]["longitude"]);
+        addMarker(point, data[i][""]);
+    }
+}
+
+//Handling updates
+function handleUpdate() {
+    for (var i = 0; i < data.length; i++) {
+        if ($.inArray(data[i],validMarkers) != -1) {
+            markers_map[data[i][""]].setMap(map);
+        } else {
+            markers_map[data[i][""]].setMap(null);
+        }
+    }
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
