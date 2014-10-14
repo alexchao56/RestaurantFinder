@@ -14,7 +14,6 @@ var data = $.csv.toObjects(csv_text);
 var constraints = {};
 
 var validMarkers = data.slice(0);
-console.log("PROCESSOR validMarkers" + validMarkers[0]);
 
 var LAT = 43.4667;
 var LON = 80.5167;

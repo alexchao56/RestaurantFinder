@@ -29,8 +29,7 @@ function initialize() {
 
   // Adds a marker at the center of the map.
   // addMarker(waterloo);
-  fillMap();
-  console.log("MAP MARKERS" + markers[0]);  
+  fillMap(); 
 }
 
 // Add a marker to the map and push to the array.
