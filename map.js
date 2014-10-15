@@ -12,7 +12,7 @@ function initialize() {
   var p3 = new google.maps.LatLng(43.477593, -80.5250886);
   var p4 = new google.maps.LatLng(43.471988, -80.5365704);*/
   var mapOptions = {
-    zoom: 13,
+    zoom: 12,
     center: waterloo,
     mapTypeId: google.maps.MapTypeId.TERRAIN,
     panControl: false,
@@ -24,7 +24,7 @@ function initialize() {
 
   // This event listener will call addMarker() when the map is clicked.
 /*  google.maps.event.addListener(map, 'click', function(event) {
-    addMarker(event.latLng);
+    addMarker(event.luatLng);
   });*/
 
   // Adds a marker at the center of the map.
