@@ -1,12 +1,3 @@
-// csv_text = ""
-// $.ajax({
-//         url: 'waterlooAttributes.csv',
-//         type: 'get',
-//         async: false,
-//         success: function(html) {
-//                 csv_text = html;
-//         }
-// });
 csv_text = "";
 data = [];
 validMarkers = [];
@@ -120,13 +111,11 @@ function check(item) {
 	if (constraints["Take out"] !== undefined && constraints["Take out"]) {
 		valid = valid && item["takeout"] == "TRUE"
 	}
-	// TODO handle time
 
 	return valid
 
 }
 
-// TODO send data to map
 $(function() { 
 	$( "#dist_slider" ).slider({
 	  range: true,
