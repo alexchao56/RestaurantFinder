@@ -10,3 +10,5 @@ To run the app, clone this repository or unzip the zip file and run a simple ser
 `python -m SimpleHTTPServer 8080`
 
 Go to `localhost:8080` and enjoy searching for restaurants!
+
+![alt tag](https://raw.githubusercontent.com/alexchao56/RestaurantFinder/master/screenshot.jpeg)
