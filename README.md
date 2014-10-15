@@ -1,15 +1,12 @@
 RestaurantFinder
 ================
 
-Using the public available Yelp Dataset, a new and exciting restaunt finding app!
+Using the public available Yelp Dataset, a new and exciting restaunt finding app! Curently supports restaurants in Waterloo, WI.
 
 Data can be found [here](https://www.yelp.com/dataset_challenge).
 
-Flow:
-* Get distance filter working
-* Add hover state
-* Get rid of flickering
-* Maybe add time
-* Make it packageable 
-* Writeup
-* Overall appearance
+To run the app, clone this repository or unzip the zip file and run a simple server on 8080 in the RestaurantFinder directory:
+
+`python -m SimpleHTTPServer 8080`
+
+Go to `localhost:8080` and enjoy searching for restaurants!
